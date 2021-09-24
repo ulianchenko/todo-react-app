@@ -22,3 +22,7 @@
   font-weight: bold;
   color: steelblue;
 }
+
+.float-right {
+  float: right;
+}
