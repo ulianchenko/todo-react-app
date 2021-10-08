@@ -27,7 +27,7 @@ export default class ItemAddForm extends React.Component {
     return (
       <form className="item-add-form d-flex" onSubmit={this.onSubmit}>
         <input type="text" className="form-control" onChange={this.onLabelChange} placeholder="What needs to be done" value={this.state.label}/>
-        <button className="btn btn-outline-secondary">Add </button>
+        <button className="btn btn-outline-secondary text-in-one-line">Add Item</button>
       </form>
     );
   };

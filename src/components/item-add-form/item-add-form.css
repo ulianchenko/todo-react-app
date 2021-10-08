@@ -5,3 +5,7 @@
 .item-add-form input {
   margin-right: 3px;
 }
+
+.text-in-one-line {
+  white-space: nowrap;
+}
